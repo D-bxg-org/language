@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Initial page](README.md)
+* [C](c.md)
 * [java](java-1/README.md)
   * [spring](java-1/spring/README.md)
     * [访问数据库](java-1/spring/fang-wen-shu-ju-ku/README.md)
