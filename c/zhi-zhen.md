@@ -101,5 +101,11 @@ typedef struct LNode
 }LNode;
 typedef LNode* LinkList;
 LinkList a; // 100%等价于 LNode* a;
+
+int InitList(LinkList* l)// 此处的LinkList* l <==> LNode* (* l)
+{
+    (*l) = (LinkList) malloc(sizeof(LNode));// 是(*l)存放头节点的地址，不是l。
+                                            // 取变量应该写 *(* l).data
+}
 ```
 
