@@ -117,7 +117,7 @@ int getA( int* a ){
     return 0;
 }
 
-int newGetA(int &a) {
+int newGetA(int &a){// c++写法
     printf("%d", a);
     return 0;
 }
@@ -127,7 +127,7 @@ int main(){
     int* pa = &a;
     getA(&a);
     getA(pa);
-    newGetA(a);
+    newGetA(a);// c++ 写法
     return 0;
 }
 ```
