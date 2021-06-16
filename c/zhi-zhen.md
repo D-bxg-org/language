@@ -109,3 +109,26 @@ int InitList(LinkList* l)// 此处的LinkList* l <==> LNode* (* l)
 }
 ```
 
+```c
+#include <stdio.h>
+
+int getA( int* a ){
+    printf("%d", *a);
+    return 0;
+}
+
+int newGetA(int &a) {
+    printf("%d", a);
+    return 0;
+}
+
+int main(){
+    int a = 1;
+    int* pa = &a;
+    getA(&a);
+    getA(pa);
+    newGetA(a);
+    return 0;
+}
+```
+
