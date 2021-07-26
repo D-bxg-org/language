@@ -93,6 +93,32 @@ int fun(int* a)
 
 同时，我们应该注意到，a变量存放的变量地址，这个变量地址对应的变量的数据类型应该为int。
 
+让我们来写点小例子
+
+```c
+int swap(int* pA, int* pB)
+
+int main(){
+    int a,b;
+    a=1;
+    b=2;
+    
+    printf("a = %d,b = %d\n",a,b);//会打印a = 1,b = 2
+    swap(&a,&b);
+    printf("a = %d,b = %d\n",a,b);//会打印a = 2,b = 1
+    return 0;
+}
+
+int swap(int* pA, int* pB){
+    int temp;
+    
+    temp = *pA ;
+    *pA = *pB;
+    *pB = temp;
+}
+
+```
+
 ```c
 typedef struct LNode
 {
