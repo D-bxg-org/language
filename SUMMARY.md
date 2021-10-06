@@ -3,6 +3,7 @@
 * [Initial page](README.md)
 * [C](c/README.md)
   * [for](c/for.md)
+  * [循环](c/xun-huan.md)
   * [指针](c/zhi-zhen.md)
 * [java](java-1/README.md)
   * [spring](java-1/spring/README.md)
