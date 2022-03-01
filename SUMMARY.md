@@ -5,11 +5,7 @@
   * [for](c/for.md)
   * [循环](c/xun-huan.md)
   * [指针](c/zhi-zhen.md)
-* [java](java-1/README.md)
-  * [spring](java-1/spring/README.md)
-    * [访问数据库](java-1/spring/fang-wen-shu-ju-ku/README.md)
-      * [集成MyBatis](java-1/spring/fang-wen-shu-ju-ku/ji-cheng-mybatis.md)
-  * [spring-MVC](java-1/spring-mvc.md)
+* [java](java-1.md)
 * [C++](c++.md)
 
 ## java
