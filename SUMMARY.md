@@ -7,6 +7,7 @@
   * [指针](c/zhi-zhen.md)
 * [java](java-1/README.md)
   * [int 和 Integer](java-1/int-he-integer.md)
+  * [List](java-1/list.md)
 * [C++](c++.md)
 
 ## java
